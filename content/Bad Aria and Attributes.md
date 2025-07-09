@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-08T22:02:26.917-06:00","tags":["a11y"],"cssclasses":""}
+{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-08T22:49:01.465-06:00","tags":["a11y"],"cssclasses":""}
 ---
 
 ## The Problem
@@ -10,7 +10,7 @@ The reason is that using a role or an aria attribute will set expectations for a
 
 ## The Solution
 
-**If you aren't sure if you should use an aria-* attribute or a role: don't.**  Try to see if there is a native element that supports your use case first and foremost, and push back on any UX that tries to sacrifice functionality for style.
+**If you aren't sure if you should use an aria-\* attribute or a role: don't.**  Try to see if there is a native element that supports your use case first and foremost, and push back on any UX that tries to sacrifice functionality for style.
 
 That said there are cases where it may be necessary, in which case always make sure to carefully read the [WCAG 2.2 Success Criteria](https://www.w3.org/TR/WCAG22/) and follow **all** requirements for any particular role or attribute you use.
 
