@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-17T15:11:37.189-06:00","tags":["a11y"],"cssclasses":""}
+{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-17T15:18:50.935-06:00","tags":["a11y"],"cssclasses":""}
 ---
 
 ## The Problem
@@ -46,7 +46,7 @@ If for some reason this cannot be done and you simply must disable the element, 
 
 ### title
 
-This should be used very sparingly if at all.  The main usefulness to the `title` attribute is that it provides kind of a poor-man's tooltip for mouse users only.  It is completely inaccessible to visual keyboard users, so if you need something like a tooltip you probably should just use a [[Tooltips\|(properly accessible) tooltip]].  
+This should be used very sparingly if at all.  The main usefulness to the `title` attribute is that it provides kind of a poor-man's tooltip for mouse users only.  It is completely inaccessible to visual keyboard users, so if you need something like a tooltip you probably should just use a [[Tooltips\|(properly accessible) tooltip]].  See [[Truncation#title attribute\|Truncation: title attribute]] also.
 
 Additionally it's not necessary to have a title or a tooltip if a text label is already fully visible, which is the preferred way to handle labels wherever possible.
 ```html
