@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-08T18:46:27.669-06:00","modified":"2025-07-08T22:58:29.198-06:00","tags":["a11y"],"cssclasses":""}
+{"publish":true,"created":"2025-07-08T18:46:27.669-06:00","modified":"2025-07-17T14:56:56.735-06:00","tags":["a11y"],"cssclasses":""}
 ---
 
 
@@ -9,7 +9,8 @@
 There is some irony that this static site template has some accessibility issues itself, but bear with me as I work on making that accessibility better.
 
 - [[Bad Aria and Attributes]]
-- [[Context]] (WIP)
+- [[Context]] 
+- [[Nesting Interactive Elements]] (WIP)
 - [[Phrase Translation]]
 - [[Tooltips]]
-- [[Truncation]] (WIP)
+- [[Truncation]] 
