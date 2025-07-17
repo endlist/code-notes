@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-17T14:59:44.572-06:00","tags":["a11y"],"cssclasses":""}
+{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-17T15:11:37.189-06:00","tags":["a11y"],"cssclasses":""}
 ---
 
 ## The Problem
@@ -28,7 +28,7 @@ If for some reason you really can't use the button or anchor tag you have to be 
 
 If you're tempted to use `tabindex=0` you probably are wrong.  Elements that need tab focus typically already will have support added natively in the case of buttons, links, and inputs.  If you're on a Mac and can't tab to a link you need to update Mac's setting and make sure Keyboard navigation is turned on.
 
-![Screencap of the keyboard navigation setting in MacOS](img/keyboard-navigation-setting.png)
+![[img/keyboard-navigation-setting.png|Screencap of the keyboard navigation setting in MacOS]]
 
 You do not need to add `tabindex=0` to every bit of text in a table.  Screen readers can access table data in other ways as long as you have correctly labelled the table, rows, and columns appropriately.  Other users can read it visually.  If it's not interactable it does not need to be in the tab flow.
 
