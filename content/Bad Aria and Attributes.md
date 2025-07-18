@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-17T15:18:50.935-06:00","tags":["a11y"],"cssclasses":""}
+{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-18T15:52:59.644-06:00","tags":["a11y"],"cssclasses":""}
 ---
 
 ## The Problem
@@ -58,3 +58,33 @@ Best solution is to just have the link text explicit:
 ```html
 <a href="some link">🏠 Home</a>
 ```
+
+### aria-live
+
+The live region has to exist before content within it changes, or else the announcement is not made.
+
+Don't do these
+```html
+<div aria-live="polite" *ngIf="isVisible">This will never be announced.</div>
+
+@if (isVisible) {
+  <div aria-live="assertive">This won't be announced either.</div>
+}
+```
+
+Do these instead (assertive/polite only change the level of interruption for the user, they are interchangeable in these examples)
+```html
+<div aria-live="polite">
+  <span *ngIf="isVisible">This is announced politely!</span>
+</div>
+
+<div aria-live="assertive">
+  @if (isVisible) {
+    <span>This is announced assertively!</span>
+  }
+</div>
+```
+You can also create a service that works with a global aria-live field to add announcements, though remember with that that you will need to ensure you 'clean up' the text in the global block or the next announcement will include everything that is in the div.
+
+> ![Warning]
+> Cleaning up the old text can create different issues where the text is cleaned up too quickly for the screen reader to pick up the announcement.  If you are having trouble with that, you can write it inline like the examples above.
