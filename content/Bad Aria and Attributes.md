@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-18T15:52:59.644-06:00","tags":["a11y"],"cssclasses":""}
+{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-18T15:56:51.885-06:00","tags":["a11y"],"cssclasses":""}
 ---
 
 ## The Problem
@@ -86,5 +86,5 @@ Do these instead (assertive/polite only change the level of interruption for the
 ```
 You can also create a service that works with a global aria-live field to add announcements, though remember with that that you will need to ensure you 'clean up' the text in the global block or the next announcement will include everything that is in the div.
 
-> ![Warning]
+> [!Warning]
 > Cleaning up the old text can create different issues where the text is cleaned up too quickly for the screen reader to pick up the announcement.  If you are having trouble with that, you can write it inline like the examples above.
