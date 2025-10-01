@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-08T23:06:43.807-06:00","modified":"2025-09-02T17:06:27.566-06:00","cssclasses":""}
+{"publish":true,"created":"2025-07-08T23:06:43.807-06:00","modified":"2025-10-01T11:30:55.286-06:00","cssclasses":""}
 ---
 
 ## Accessibility
@@ -10,7 +10,7 @@
 - [Scott O'Hara](https://www.scottohara.me/blog/) also came up for a me lot when researching good accessibility patterns and also has some interesting thoughts on related topics such as whether and how generative AI like ChatGPT can be used to aid in accessibility ([Setting expectations for asking ChatGPT web accessibility questions](https://www.scottohara.me/blog/2023/02/17/an-ai-dialog.html)) that I still find relevant personally.
 - [Accessibility @ Perpendicular Angel Design](https://accessibility.perpendicularangel.com) Anne Gibson has a project that tries to document ways to test websites against WCAG criteria.
 - [Accessibility Support](https://a11ysupport.io/) Tests for support for various screen reader and browser combinations.
-- https://sarahmhigley.com/
+- [Sarah Higley](https://sarahmhigley.com/) writes about other topics as well but has several good accessibility-related articles like on comboboxes/selects ([\<select\> your poison](https://sarahmhigley.com/writing/select-your-poison/)), high contrast mode ([Quick Tips for High Contrast Mode](https://sarahmhigley.com/writing/whcm-quick-tips/)), and grids ([Grids Part 1: To grid or not to grid](https://sarahmhigley.com/writing/grids-part1/)).
 
 ### Services
 
