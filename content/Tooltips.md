@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-07-08T23:04:19.551-06:00","tags":["a11y"],"cssclasses":""}
+{"publish":true,"created":"2025-07-08T20:03:21.962-06:00","modified":"2025-10-01T11:25:57.018-06:00","tags":["a11y"],"cssclasses":""}
 ---
 
 
@@ -11,4 +11,8 @@ Tooltips are difficult to support properly, people often forget to make them acc
 
 ## The Solution
 
-If you can avoid a tooltip, do avoid a tooltip.  This often stems from a UX problem that wasn't addressed, either trying to save space by using icon-only buttons, not considering need for help text, etc.  As a developer, push back on UX that calls for a tooltip.  If it's absolutely unavoidable make sure you are supporting the full spec of accessibility.
+If you can avoid a tooltip, do avoid a tooltip.  This often stems from a UX problem that wasn't addressed, either trying to save space by using icon-only buttons which a tooltip does not fully solve due to difficulties on mobile, not considering need for help text, etc.  As a developer, push back on UX that calls for a tooltip.  If it's absolutely unavoidable make sure you are supporting the full spec of accessibility.
+
+## Read More
+
+- [Tooltips & Toggletips](https://inclusive-components.design/tooltips-toggletips/) by Heydon Pickering
